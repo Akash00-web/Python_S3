@@ -1,0 +1,8 @@
+
+"""Write a Python program to convert hours into minutes and seconds (Ex : input of hours = 6 then output will be, minutes =
+360 and seconds = 21600 ). """
+n=int(input("Enter hours"))
+minutes=n*60
+seconds=n*60*60
+print(f" for {n} hours there will be \
+{minutes} minutes and {seconds} seconds")
