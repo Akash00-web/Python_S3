@@ -1,0 +1,25 @@
+"""
+Write a Python Program to print all Happy Numbers between the given range entered by user. (Include both Start and
+End Range Number).
+
+"""
+a=int(input(" range start"))
+b=int(input(" range end"))
+
+
+for k in range(a, b+1):
+     
+     n = k
+     while n != 1 and n != 4:
+        t = n
+        ans = 0
+        while t > 0:
+            d = t % 10
+            ans = ans + d ** 2
+            t = t // 10
+        n = ans
+
+        if n == 1:
+            print(f"{k} is a Happy Number")
+
+

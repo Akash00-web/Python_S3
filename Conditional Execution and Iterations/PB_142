@@ -1,0 +1,14 @@
+"""
+Write a program to find the maximum number among the three input numbers.
+
+"""
+a=int(input(" first "))
+b=int(input(" second "))
+c=int(input(" third "))
+if a>b and b>c:
+    print(a)
+elif(b>a) and b>c:
+    print(b)
+else:
+    print(c)
+                            

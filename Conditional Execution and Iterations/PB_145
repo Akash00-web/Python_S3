@@ -1,0 +1,26 @@
+"""
+Write a Python Program to Compute the product of the odd digits in a given number,
+0 if there are not any odd digits in a given number.
+Example:
+(1)
+Input: 123456789
+Output: 945
+(2)
+Input: 2468
+Output: 0
+(3)
+Input: 123547
+Output: 105
+"""
+n=int(input("Enter number"))
+ans=1
+isOddFound = False
+while n>0:
+    d=n%10
+    n=n//10
+    if d%2==1:
+        ans=ans*d
+        isOddFound=True
+if (not(isOddFound)):
+      ans=0
+print(ans)          

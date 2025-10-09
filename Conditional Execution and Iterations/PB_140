@@ -1,0 +1,8 @@
+"""
+Write a program to determine a given number is ‘odd’ or ‘even’ and print the following message “Number is ODD” or
+“Number is Even”. """
+n=int(input("Enter number"))
+if n%2==0:
+    print("even")
+else:
+    print("odd")

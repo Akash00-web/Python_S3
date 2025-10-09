@@ -1,0 +1,11 @@
+"""
+Write a Python Program to calculate the sum of three given numbers, if the values are equal then return thrice their sum
+"""
+
+a=int(input(" first "))
+b=int(input(" second "))
+c=int(input(" third "))
+if a== b==c:
+    print(3*(a+b+c))
+else:
+    print(a+b+c)    
