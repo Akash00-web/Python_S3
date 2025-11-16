@@ -1,9 +1,0 @@
-
-"""
-write a pyhton program tofind the area of triangle
-"""
-import math
-b=int(input("enter base b : "))
-h=int(input("enter height h : "))
-
-print(f" area of triangle : { 0.5*b*h}")
