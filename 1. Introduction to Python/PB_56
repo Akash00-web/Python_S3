@@ -1,0 +1,9 @@
+"""
+write a python to convert days into years, months and days  
+(Ex: if input of Days = 370 then output will be,years=1, months=0 and days = 5). 
+"""
+n=int(input("Enter days to convert "))
+year=n//365
+month=(n%365)//30
+days=(n%365)%30
+print(f" for {n} days it is year: {year} month: {month} days : {days}")

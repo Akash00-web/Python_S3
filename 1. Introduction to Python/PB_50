@@ -1,0 +1,7 @@
+"""
+write a python pragram to find the are od cirlce
+"""
+import math
+a=int(input("Enter circle radius"))
+
+print(f" area of {a} radius circle is { math.pi * a*a}")

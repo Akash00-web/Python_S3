@@ -1,0 +1,18 @@
+"""
+write a python program to find an integer exponent x sych that a ^x=n.
+input :
+a=2 : n=1024
+output:
+10
+Input:
+a = 3 : n = 81
+Output:
+4
+
+"""
+import math
+b=int(input("Enter base "))
+n=int(input("Enter number"))
+x=math.log(n,b)
+print(x)
+

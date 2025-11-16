@@ -1,0 +1,8 @@
+"""
+write a python pragram to calculte surface volume and area of a cylinder
+"""
+import math
+r=int(input("enter radius r : "))
+h=int(input("enter height h : "))
+print(f" surface area of cylinder : { 2*math.pi*r*h + 2*math.pi*r*r} ")
+print(f" volume of cylinder : { math.pi*r*r*h}")
